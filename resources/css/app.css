@@ -1,0 +1,13 @@
+body {
+    background-color: burlywood;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+svg {
+    width: 32px;
+    height: 32px;
+}
+
+.nav {
+    background-color: blue;
+}

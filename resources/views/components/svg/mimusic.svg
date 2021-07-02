@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93333 270.93333"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="mimusic.svg"
+   inkscape:export-filename="C:\Users\alonz\OneDrive\Pictures\mimusic.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.36253033"
+     inkscape:cx="208.25844"
+     inkscape:cy="442.72158"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10381" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient9256">
+      <stop
+         style="stop-color:#f128ce;stop-opacity:1"
+         offset="0"
+         id="stop9252" />
+      <stop
+         style="stop-color:#a918f2;stop-opacity:0.99607843"
+         offset="1"
+         id="stop9254" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7552">
+      <stop
+         style="stop-color:#a918f2;stop-opacity:1"
+         offset="0"
+         id="stop7548" />
+      <stop
+         style="stop-color:#f128ce;stop-opacity:0.99724519"
+         offset="1"
+         id="stop7550" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9256"
+       id="linearGradient7546"
+       x1="11.499239"
+       y1="3.4383428"
+       x2="9.6087646"
+       y2="5.1817002"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-5.1315749,-0.57017499)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7552"
+       id="linearGradient8264"
+       x1="10.478836"
+       y1="4.0113196"
+       x2="7.1952076"
+       y2="7.3982811"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-5.1315749,-0.57017499)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9256"
+       id="linearGradient1437"
+       x1="5.4618936"
+       y1="3.517853"
+       x2="3.0428474"
+       y2="5.8308005"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g10381"
+       transform="matrix(34.393698,0,0,34.393698,-17.075898,0.88862734)"
+       inkscape:export-filename="C:\Users\alonz\OneDrive\Pictures\mimusic.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <circle
+         style="fill:url(#linearGradient1437);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient8264);stroke-width:0.825611;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2613"
+         cx="3.682719"
+         cy="5.1695447"
+         r="1.3137456" />
+      <path
+         style="fill:url(#linearGradient7546);fill-opacity:1;stroke:none;stroke-width:0.0661458;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 4.373945,3.5910746 4.376735,0.92964236 C 6.2309011,1.7913415 7.6400291,3.5975374 6.5100761,5.4949815 6.5306631,4.4674217 6.1934231,2.816888 5.2465871,2.6080376 L 5.3905325,4.9129525 C 5.132833,4.5621074 4.8141602,3.7999629 4.373945,3.5910746 Z"
+         id="path5535"
+         sodipodi:nodetypes="cccccc" />
+    </g>
+  </g>
+</svg>
