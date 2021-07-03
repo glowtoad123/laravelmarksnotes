@@ -49,5 +49,15 @@ class Auth0IndexController extends Controller
             /* print_r(Auth::user(), true) */
         ]);
     }
+
+    public function allowCreation(){
+        if (!Auth::check()) {
+            return redirect()->route('login');
+        }
+
+        return view('/create')->with([
+            'user' => print_r(Auth::user()->getUserInfo()["email"], true)
+        ]);
+    }
 }
 ?>

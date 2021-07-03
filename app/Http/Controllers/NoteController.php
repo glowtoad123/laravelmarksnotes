@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Note;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Route;
 
 class NoteController extends Controller
 {
@@ -20,7 +21,8 @@ class NoteController extends Controller
         $note->note = $request->note;
         $note->user = $request->user;
         $note->save();
-        return response()->json(["result" => "ok"], 201);
+        return redirect("/");
+        /* return response()->json(["result" => "ok"], 201); */
     }
 
     public function showAll($user){
