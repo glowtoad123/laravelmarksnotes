@@ -23,6 +23,10 @@ body {
     box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.125), inset -4px -4px 4px rgba(0, 0, 0, 0.125);
 }
 
+nav.navbar>a {
+    height: 100%;
+}
+
 svg {
     width: 64px;
     height: 64px;
@@ -489,6 +493,10 @@ img {
     top: auto;
     bottom: 0;
   }
+
+  nav.navbar>a {
+    width: 100%;
+}
 
   #cardHolder {
     display: flex;

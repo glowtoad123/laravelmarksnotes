@@ -1,6 +1,7 @@
     <nav class="navbar">
+        <a href="/">{!! file_get_contents("home.svg") !!}</a>
         <a href="../create">{!! file_get_contents("plus.svg") !!}</a>
-        {!! file_get_contents("info - beta.svg") !!}
+        <a href="/info">{!! file_get_contents("info - beta.svg") !!}</a>
         @if (Route::has('login'))
             <div>
                 @auth
