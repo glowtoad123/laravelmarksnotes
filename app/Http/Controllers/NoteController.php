@@ -36,6 +36,12 @@ class NoteController extends Controller
 
     }
 
+    public function destroy($slug){
+        $note = Note::find($slug);
+        $note->delete();
+        return redirect("/");
+    }
+
     /* public function update(Request $request, $slug){
         $note = Note::find($slug);
         $note->title = $request->title;

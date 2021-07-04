@@ -9,6 +9,7 @@
     <title>{{ $note->title }}</title>
 </head>
 <body>
+    @include('components.nav')
     @if ($note->user === $user)
     <form id="createCard" action="/api/notes/" method="post">
         <input id="createtopic" type="text" placeholder="title" name="title" value="{{ $note->title }}">
