@@ -21,7 +21,7 @@ class NoteController extends Controller
             $note->note = $request->note;
             $note->user = $request->user;
             $note->_id = $request->id;
-            $note->save();
+            $note->update();
             return redirect("/note/{$request->id}");
         } else {
             $note = new Note;
