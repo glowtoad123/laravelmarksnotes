@@ -22,3 +22,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::resource('notes', NoteController::class)->only([
     'destroy', 'show', 'store', 'update'
 ]);
+
+Route::resource('notes/{slug}', NoteController::class)->only([
+    'update'
+]);

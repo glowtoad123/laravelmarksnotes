@@ -59,5 +59,13 @@ class Auth0IndexController extends Controller
             'user' => print_r(Auth::user()->getUserInfo()["email"], true)
         ]);
     }
+
+    public function editNote($slug){
+        return view("/edit")->with([
+            'user' => print_r(Auth::user()->getUserInfo()["email"], true),
+            'note' => Note::find($slug),
+            'slug' => $slug
+        ]);
+    }
 }
 ?>

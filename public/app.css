@@ -210,6 +210,8 @@ hr {
   margin: 5px;
   margin-left: 5px;
   margin-top: 0;
+  width: 24px;
+  height: 24px;
 }
 
 .dropdown {

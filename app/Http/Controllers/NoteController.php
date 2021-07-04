@@ -15,15 +15,34 @@ class NoteController extends Controller
     }
 
     public function store(Request $request){
-        $note = new Note;
+        if(Note::find($request->id)){
+            $note = Note::find($request->id);
+            $note->title = $request->title;
+            $note->note = $request->note;
+            $note->user = $request->user;
+            $note->_id = $request->id;
+            $note->save();
+            return redirect("/note/{$request->id}");
+        } else {
+            $note = new Note;
 
+            $note->title = $request->title;
+            $note->note = $request->note;
+            $note->user = $request->user;
+            $note->save();
+            return redirect("/");
+            /* return response()->json(["result" => "ok"], 201); */
+        }
+
+    }
+
+    /* public function update(Request $request, $slug){
+        $note = Note::find($slug);
         $note->title = $request->title;
         $note->note = $request->note;
-        $note->user = $request->user;
         $note->save();
-        return redirect("/");
-        /* return response()->json(["result" => "ok"], 201); */
-    }
+        return response()->json(["result" => "ok"], 201);
+    } */
 
     public function showAll($user){
         return view("welcome", [
