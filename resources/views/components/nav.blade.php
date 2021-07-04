@@ -5,9 +5,9 @@
         @if (Route::has('login'))
             <div>
                 @auth
-                    <a href="{{ route('logout') }}">{!! file_get_contents("monument.svg") !!}</a>
+                    <a href="{{ route('logout') }}">{!! file_get_contents("logout.svg") !!}</a>
                 @else
-                    <a href="{{ route('login') }}">{!! file_get_contents("monument.svg") !!}</a>
+                    <a href="{{ route('login') }}">{!! file_get_contents("login.svg") !!}</a>
                 @endauth
             </div>
         @endif

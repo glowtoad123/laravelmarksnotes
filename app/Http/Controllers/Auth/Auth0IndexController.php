@@ -40,7 +40,7 @@ class Auth0IndexController extends Controller
     public function profile()
     {
         if (!Auth::check()) {
-            return redirect()->route('login');
+            return redirect()->intended('/info');
         }
 
         return view('/welcome')->with([

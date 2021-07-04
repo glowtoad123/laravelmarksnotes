@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="../markdownit/atelier-forest-light.css">
     <link rel="stylesheet" href="../app.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.svg" type="image/x-icon">
     <title>Create new Note</title>
 </head>
+@include("components.nav")
 <body>
     <form id="createCard" action="../api/notes" method="post">
         <input id="createtopic" type="text" placeholder="title" name="title">

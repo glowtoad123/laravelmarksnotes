@@ -30,5 +30,6 @@ Route::get("/note/{slug}", [NoteController::class, "show"]);
 Route::get("/create", [Auth0IndexController::class, "allowCreation"]);
 Route::get("/edit/{slug}", [Auth0IndexController::class, "editNote"]);
 Route::get("/delete/{slug}", [NoteController::class, 'destroy']);
+Route::get("/info", fn() => view("info"));
 /* Route::get("/api/notes", fn() => redirect('/',200)); */
 /* Route::redirect('/api/notes', '/', 301); */
