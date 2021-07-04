@@ -21,7 +21,7 @@ class NoteController extends Controller
             $note->note = $request->note;
             $note->user = $request->user;
             $note->_id = $request->id;
-            $note->update();
+            $note->save();
             return redirect("/note/{$request->id}");
         } else {
             $note = new Note;
@@ -42,13 +42,13 @@ class NoteController extends Controller
         return redirect("/");
     }
 
-    /* public function update(Request $request, $slug){
+    public function update(Request $request, $slug){
         $note = Note::find($slug);
         $note->title = $request->title;
         $note->note = $request->note;
         $note->save();
-        return response()->json(["result" => "ok"], 201);
-    } */
+        return redirect("/note/{$request->id}");
+    }
 
     public function showAll($user){
         return view("welcome", [

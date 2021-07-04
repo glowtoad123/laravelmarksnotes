@@ -11,7 +11,8 @@
 <body>
     @include('components.nav')
     @if ($note->user === $user)
-    <form id="createCard" action="/api/notes/" method="post">
+    <form id="createCard" action="/api/notes/{{ $note->_id }}" method="post">
+        @method("PUT")
         <input id="createtopic" type="text" placeholder="title" name="title" value="{{ $note->title }}">
         <textarea onkeyup="parseNote(event)" id="createnote" type="text" placeholder="note" name="note">{{ $note->note }}</textarea>
         <input type="hidden" name="user" value=<?= $user; ?> >
